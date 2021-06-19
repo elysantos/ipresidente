@@ -1,0 +1,22 @@
+{
+    "name": "iPresidente",
+    "action": {
+        
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+    "manifest_version": 3,
+    "version": "0.28",
+    "description": "O 'i' é de idiota",
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "webNavigation"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
